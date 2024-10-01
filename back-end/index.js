@@ -4,7 +4,7 @@ import {PORT} from "./config.js";
 const app = express();
 
 app.get('/', (request,response) => {
-    console.log(request);
+    //console.log(request);
     return response.status(234).send('Vamos vencer essa luta!');
 });
 
