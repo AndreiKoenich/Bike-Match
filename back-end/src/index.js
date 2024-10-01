@@ -6,7 +6,7 @@ const app = express();
 
 
 app.listen(PORT, () => {
-    console.log(`Servidor iniciado com sucesso! Ouvindo na porta: ${PORT}`);
+    console.log("Servidor iniciado com sucesso! Ouvindo na porta:", PORT);
 });
 
 app.get('/', (request,response) => {
