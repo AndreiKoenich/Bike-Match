@@ -11,7 +11,7 @@ app.listen(PORT, () => {
 
 app.get('/', (request,response) => {
     //console.log(request);
-    return response.status(234).send('Vamos vencer essa luta!');
+    return response.status(200).send('Vamos vencer essa luta!');
 });
 
 mongoose.connect(mongoDBURL_local, {})
