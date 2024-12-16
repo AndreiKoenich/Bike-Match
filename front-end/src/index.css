@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* Remova o display flex, se não for necessário */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: auto; /* Ou defina uma altura mínima se necessário */
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,97 @@
+.register-bike-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.accessories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.register-bike-form input,
+.register-bike-form select,
+.register-bike-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-bike-form textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #218838;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #186e2e;
+}
+
+.loading,
+.success-message
+{
+    font-size: 25px;
+    max-width: 700px; /* Mesma largura máxima do .register-bike-container */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem */
+    padding: 10px; /* Opcional: Adiciona um espaçamento interno */ 
+    color: #186e2e;
+}
+.error-message
+{
+    font-size: 25px;
+    max-width: 700px; /* Mesma largura máxima do .register-bike-container */
+    margin: 20px auto; /* Centraliza horizontalmente e adiciona margem */
+    padding: 10px; /* Opcional: Adiciona um espaçamento interno */ 
+    color: red;
+}
+
+
+
+.error-list {
+    color: red;
+}
+
+.error-item {
+    margin-top: 5px;
+}

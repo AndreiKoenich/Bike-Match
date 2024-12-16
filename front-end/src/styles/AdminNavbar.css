@@ -1,0 +1,28 @@
+.navAdmin {
+    background-color: #0000cc; 
+    padding: 1rem 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navAdmin ul {
+    list-style: none;
+    display: flex;
+    gap: 5.5rem;
+    margin: 0;
+    padding: 0;
+    justify-content: left; 
+  }
+  
+  .navAdmin a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2rem; 
+    font-weight: 500; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .navAdmin a:hover {
+    color: #C3E6CB;
+    transform: scale(1.05); 
+    text-decoration: underline;
+  }

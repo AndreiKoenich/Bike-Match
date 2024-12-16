@@ -1,0 +1,121 @@
+.bike-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px; /* Reduzi o espaço entre os cards */
+  margin: 16px 0; /* Menor margem geral */
+}
+
+.bike-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px; /* Reduzi o padding interno */
+  width: calc(25% - 16px); /* Cards menores, ocupando 25% */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.bike-card:hover {
+  transform: scale(1.02);
+}
+
+.bike-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.bike-card p {
+  margin: 0 0 10px;
+}
+
+.bike-card button {
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.bike-card button:hover {
+  background-color: #218838;
+}
+
+.bike-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.bike-image {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.accessories-container {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.accessory-tag {
+  padding: 4px 8px;
+  border-radius: 12px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 0.7rem;
+}
+
+.centered-message {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px; /* Espaçamento entre o label e o select */
+}
+
+.filter-container label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#regionFilter {
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem; /* Tamanho maior para melhor usabilidade */
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+#regionFilter:hover {
+  border-color: #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#regionFilter:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 4px #28a745;
+}

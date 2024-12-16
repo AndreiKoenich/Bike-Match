@@ -1,0 +1,48 @@
+/* components/Navbar.css */
+nav {
+  background-color: #218838; /* Cor de fundo verde */
+  padding: 1rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #C3E6CB;
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+/* Logout com ícone */
+.logout-container {
+  margin-left: auto; /* Empurra o ícone para o canto direito */
+}
+
+.logout-icon {
+  color: #FFFFFF;
+  font-size: 1.7rem; /* Tamanho do ícone */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-icon:hover {
+  color: #000000; 
+  transform: scale(1.1);
+}
